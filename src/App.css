@@ -1,0 +1,115 @@
+.parentdiv{
+  background-color: beige;
+  height: 100%;
+}
+
+.Header {
+  background-color: white;
+  text-align: center;
+  margin: 2%;
+  border: 1px solid rgb(215, 208, 67);
+}
+
+.secondDiv {
+  margin: 2%;
+  height: 475px;
+}
+
+.List {
+  background-color: white;
+  border: 1px solid rgb(215, 208, 67);
+}
+
+span {
+  float: right;
+}
+
+.Posting {
+  background-color: white;
+  border: 1px solid rgb(215, 208, 67);
+  margin: 2%;
+}
+
+.postTitle {
+  text-align: center;
+}
+
+.postContent {
+  margin-left: 2%;
+  text-align: left;
+  margin-right: 2%;
+}
+
+.boardName {
+  font-size: 13px;
+}
+
+.boardTitle {
+  border-bottom: 1px solid rgb(215, 208, 67);
+  margin-right: 2%;
+  padding-bottom: 3px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.homeHeader{
+  width:fit-content;
+  height: fit-content;
+  margin-right: 0%;
+}
+
+.movieDiv {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  margin-right: 5%;
+  height: 100%;
+}
+
+.issueDiv {
+  display: inline-block;
+  text-align: center;
+  margin-right: 5%;
+  width: 30%;
+  height: 100%;
+}
+
+.weatherDiv {
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  height: 100%;
+}
+
+.homeCard {
+  height: 100%;
+}
+
+.loginDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  padding: 3%;
+  font-size: 30px;
+  height: 50vh;
+  width: 50vh;
+  position: fixed; /* 또는 absolute를 사용할 수도 있습니다 */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);;
+}
+
+.loginTitle {
+  position: fixed;
+  top:10%;
+}
+
+.loginButton {
+  position: fixed;
+  top:80%;
+}
